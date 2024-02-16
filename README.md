@@ -20,7 +20,7 @@
 <b>Generated Images
 </p>
 <p align="center">
-    <img src="results.jpg"/>
+    <img src="Samples.png"/>
 </p>
 
 
