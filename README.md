@@ -43,7 +43,7 @@ Install [CLIP](https://github.com/openai/CLIP)
 
 ## Preparation
 ### Datasets
-1. Download the preprocessed metadata for [birds](https://drive.google.com/file/d/1I6ybkR7L64K8hZOraEZDuHh0cCJw5OUj/view?usp=sharing)  and extract them to `data/`
+1. Download the preprocessed metadata for [birds](#)  and extract them to `data/`
 2. Download the [birds](https://www.vision.caltech.edu/datasets/cub_200_2011/) image data. Extract them to `data/birds/`
 ***OR***
 1. Download the preprocessed metadata and CUB dataset in a single zip [Download](https://drive.google.com/drive/folders/1DLIf_iMvq_qLRn8881WH6KXKHlS_KH5V?usp=sharing) it and extract to `data/`
@@ -67,7 +67,7 @@ Our code supports automate FID evaluation during training, the results are store
 ## Evaluation
 
 ### Download Pretrained Model
-- [EfficientCLIP-GAN for Birds](https://drive.google.com/file/d/1gbfwDeD7ftZmdOFxfffCjKCyYfF4ptdl/view?usp=sharing). Download and save it to `./code/saved_models/pretrained/`
+- [EfficientCLIP-GAN for Birds](#). Download and save it to `./code/saved_models/pretrained/`
 
 ### Evaluate EfficientCLIP-GAN model
 
