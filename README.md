@@ -28,7 +28,7 @@ Official Pytorch implementation for our paper [GALIP: Generative Adversarial CLI
 ## Requirements
 - python 3.9
 - Pytorch 1.9
-- At least 1x24GB 3090 GPU (for training)
+- At least 1xTesla v100 32GB GPU (for training)
 - Only CPU (for inference) 
 
 EfficientCLIP-GAN is a small, rapid and efficient generative model which can generate multiple pictures in one second even on the CPU as compared to Diffusion Models.
