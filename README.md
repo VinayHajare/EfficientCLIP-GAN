@@ -10,7 +10,7 @@
 # EfficientCLIP-GAN: High-Speed Image Generation with Compact CLIP-GAN Architecture
 
 <p align="center">
-    <img src="logo.png" width="500px"/>
+    <img src="Logo.png" width="500px"/>
 </p>
 
 # A high-quality, fast, and efficient text-to-image synthesis model
