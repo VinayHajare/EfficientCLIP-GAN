@@ -30,6 +30,7 @@
 - At least 1xTesla v100 32GB GPU (for training)
 - Only CPU (for inference) 
 
+
 EfficientCLIP-GAN is a small, rapid and efficient generative model which can generate multiple pictures in one second even on the CPU as compared to Diffusion Models.
 ## Installation
 
