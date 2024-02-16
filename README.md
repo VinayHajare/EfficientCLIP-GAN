@@ -6,7 +6,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/VinayHajare/EfficientCLIP-GAN)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/VinayHajare/EfficientCLIP-GAN/graphs/commit-activity))
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1a009c.svg)
-[![Updated](https://badges.pufler.dev/updated/VinayHajare/EfficientCLIP-GAN)]() 
+[![Updated](https://badges.pufler.dev/updated/VinayHajare/EfficientCLIP-GAN)](https://vinayhajare.engineer) 
 # EfficientCLIP-GAN: High-Speed Image Generation with Compact CLIP-GAN Architecture
 
 <p align="center">
