@@ -6,7 +6,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/VinayHajare/EfficientCLIP-GAN)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/VinayHajare/EfficientCLIP-GAN/graphs/commit-activity))
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1a009c.svg)
-![Updated](https://badges.pufler.dev/updated/VinayHajare/EfficientCLIP-GAN) 
+[![Updated](https://badges.pufler.dev/updated/VinayHajare/EfficientCLIP-GAN)]() 
 # EfficientCLIP-GAN: High-Speed Image Generation with Compact CLIP-GAN Architecture
 
 <p align="center">
@@ -94,11 +94,11 @@ The released model achieves better performance than the Latent Diffusion.
   - the inference.ipynb can be used to sample
 
 ---
-### Citing EfficientCLIP-GAN
+### Support EfficientCLIP-GAN
 
 If you find  useful in your research, please consider giving a star to repository
 
-The code is released for academic research use only. For commercial use, please contact [Vinay Hajare](https://vinayhajare.engineer).
+The code is released for academic research use only. For commercial use, please contact [Vinay Hajare](https://vinayhajare.engineer).  
 
-
-
+### Contributors
+[![Contributors Display](https://badges.pufler.dev/contributors/VinayHajare/EfficientCLIP-GAN?size=50&padding=5&perRow=10&bots=false)]()
