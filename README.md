@@ -97,7 +97,7 @@ The released model achieves better performance than the Latent Diffusion.
 ---
 ### Support EfficientCLIP-GAN
 
-If you find  useful in your research, please consider giving a star to repository
+If you find this useful in your research, please consider giving a star to repository
 
 The code is released for academic research use only. For commercial use, please contact [Vinay Hajare](https://vinayhajare.engineer).  
 
