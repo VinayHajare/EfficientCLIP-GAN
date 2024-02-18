@@ -31,10 +31,15 @@ generator = load_model_weights(netG, checkpoint['model']['netG'], multi_gpus=Fal
 
 # Function to generate images from text
 def generate_image_from_text(caption, batch_size=4):
+    # Create the noise vector
     noise = torch.randn((batch_size, 100)).to(device)
+    # Tokenize caption
     tokenized_text = clip.tokenize([caption]).to(device)
+    # Extract the sentence and word embedding from Custom CLIP ENCODER
     sent_emb, word_emb = text_encoder(tokenized_text)
+    # Repeat the sentence embedding to match the batch size
     sent_emb = sent_emb.repeat(batch_size, 1)
+    # generate the images
     with torch.no_grad():
         generated_images = generator(noise, sent_emb, eval=True).float
 
