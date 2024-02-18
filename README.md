@@ -41,6 +41,7 @@ pip install -r requirements.txt
 ```
 Install [CLIP](https://github.com/openai/CLIP)
 
+
 ## Preparation
 ### Datasets
 1. Download the preprocessed metadata for [birds](https://drive.google.com/file/d/1HG7M80UNo37xOxJlhY3d_uO-pXj6GRo_/view?usp=sharing)  and extract them to `data/`
@@ -88,6 +89,17 @@ The released model achieves better performance than the Latent Diffusion.
 | EfficientCLIP-GAN| 0.000      | 0.000      |
 
 
+## Try Now  
+The gradio demo is available as a hosted HuggingFace Space [here](#).  
+You can run this app locally  
+```
+cd EfficientCLIP-GAN/gradio app
+pip install -r requirements.txt
+```
+then 
+```
+python app.py
+```
 
 ## Inference (Sampling)
   
