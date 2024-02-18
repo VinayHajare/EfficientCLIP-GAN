@@ -10,12 +10,12 @@ from inference import generate_image_from_text
 css = read_css_from_file("style.css")
 
 DESCRIPTION = '''
-    <div id="content_align>
+    <div id="content_align">
         <span style="color:darkred;font-size:32px:font-weight:bold">
         EfficientCLIP-GAn Models Image Generation Demo
         </span>
     </div>
-    <div id="content_align>
+    <div id="content_align">
         <span style="color:blue;font-size:16px:font-weight:bold">
         Generate images directly from text prompts
         </span>
@@ -26,12 +26,12 @@ DESCRIPTION = '''
 
 # Creating Gradio interface
 with gr.Blocks(css=css) as app:
+    gr.Warning("This 💻 demo uses the EfficientCLIP-GAN model which is trained on CUB dataset 🐦🐥.\nKeep your prompt coherent to the birds domain.\nIf you like the demo, don't forget to click on the like 💖 button.")
     gr.Markdown(DESCRIPTION)
     with gr.Row():
         with gr.Column():
             text_prompt = gr.Textbox(label="Input Prompt", placeholder="", lines=3)
-
-        generate_button = gr.Button("Generate Image", variant='primary')
+    generate_button = gr.Button("Generate Image", variant='primary')
 
     with gr.Row():
         with gr.Column():
