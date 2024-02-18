@@ -25,6 +25,15 @@ def load_model_weights(model, weights, multi_gpus, train=True):
     return model
 
 
+# Class to work with if mixed precision is failing
+class dummy_context_mgr():
+    def __enter__(self):
+        return None
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        return False
+
+
 # Function to read CSS from file
 def read_css_from_file(filename):
     with open(filename, 'r') as file:
