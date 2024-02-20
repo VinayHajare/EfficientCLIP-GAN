@@ -12,7 +12,7 @@ css = read_css_from_file("style.css")
 DESCRIPTION = '''
     <div id="content_align">
         <span style="color:darkred;font-size:32px:font-weight:bold">
-        EfficientCLIP-GAn Models Image Generation Demo
+        EfficientCLIP-GAN Models Image Generation Demo
         </span>
     </div>
     <div id="content_align">
