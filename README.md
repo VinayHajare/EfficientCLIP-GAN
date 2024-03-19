@@ -101,6 +101,12 @@ then
 python app.py
 ```
 
+
+## Note :  
+***Weights are available on [HuggingFace Hub](https://huggingface.co/VinayHajare/EfficientCLIP-GAN)***  
+
+
+
 ## Inference (Sampling)
   
 ### Synthesize images from your text descriptions/Prompts 
