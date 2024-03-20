@@ -5,7 +5,7 @@ import requests
 from PIL import Image
 
 from utils import read_css_from_file
-from inference import generate_image_from_text
+from inference import generate_image_from_text, generate_image_from_text_with_persistent_storage
 # Read CSS from file
 css = read_css_from_file("style.css")
 
