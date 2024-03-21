@@ -69,7 +69,7 @@ Our code supports automate FID evaluation during training, the results are store
 ## Evaluation
 
 ### Download Pretrained Model
-- [EfficientCLIP-GAN for Birds](#). Download and save it to `./code/saved_models/pretrained/`
+- [EfficientCLIP-GAN for Birds](https://huggingface.co/VinayHajare/EfficientCLIP-GAN). Download and save it to `./code/saved_models/pretrained/`
 
 ### Evaluate EfficientCLIP-GAN model
 
