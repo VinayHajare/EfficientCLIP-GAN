@@ -90,7 +90,7 @@ The released model achieves better performance than the Latent Diffusion.
 
 
 ## Try Now  
-The gradio demo is available as a hosted HuggingFace Space [here](#).  
+The gradio demo is available as a hosted HuggingFace Space [here](https://huggingface.co/spaces/VinayHajare/Text-To-Image-EfficientCLIP-GAN).  
 You can run this app locally  
 ```
 cd EfficientCLIP-GAN/gradio app
