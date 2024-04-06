@@ -16,7 +16,7 @@ from model import NetG, CLIP_TXT_ENCODER
 device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
 # repositiory of the model
 repo_id = "VinayHajare/EfficientCLIP-GAN"
-file_name = "saved_models/state_epoch_120.pth"
+file_name = "saved_models/state_epoch_1480.pth"
 
 # clip model wrapped with the custom encoder
 clip_text = "ViT-B/32"
