@@ -86,7 +86,7 @@ The released model achieves better performance than the Latent Diffusion.
 
 | Model            | Birds-FID↓ | Birds-CS↑  |
 | ---------------- | ---------- | ---------- | 
-| EfficientCLIP-GAN| 0.000      | 0.000      |
+| EfficientCLIP-GAN| 11.806      | 31.70      |
 
 
 ## Try Now  
