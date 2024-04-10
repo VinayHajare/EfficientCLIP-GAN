@@ -20,7 +20,7 @@
 <b>Generated Images
 </p>
 <p align="center">
-    <img src="./code/model/EfficientCLIP-GAN.drawio.png"/>
+    <img src="Samples.png"/>
 </p>
 
 
